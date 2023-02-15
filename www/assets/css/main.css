@@ -1,0 +1,33 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 4fr 2fr;
+    grid-template-areas: 
+        "logo header sidebar"
+        "menu metrics sidebar"
+        "logout history sidebar";
+}
+
+section {
+    border: 1px dotted red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+section.logo { grid-area: logo }
+section.header { grid-area: header }
+section.menu { grid-area: menu }
+section.metrics { grid-area: metrics }
+section.history { grid-area: history }
+section.sidebar { grid-area: sidebar }
+section.logout { grid-area: logout }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
