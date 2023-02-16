@@ -1,0 +1,13 @@
+i.icon {
+    background-color: var(--color) !important;
+    mask-position: center;
+    padding: 0 !important;
+    mask-repeat: no-repeat !important;
+}
+
+i.search {
+    mask: url("../icons/search.svg");
+    width: 45px !important;
+    height: 41px;
+    transform: scale(0.8);
+}

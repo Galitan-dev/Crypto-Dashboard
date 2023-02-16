@@ -25,4 +25,6 @@ section.logout { grid-area: logout }
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    color: var(--color);
+    font-size: var(--font-size);
 }
