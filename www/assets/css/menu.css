@@ -31,6 +31,13 @@ section.logout div span {
     font-size: 20px;
     line-height: 30px;
     opacity: 0.64;
+    transition: opacity .3s;
+    cursor: pointer;
+}
+
+section.menu div span:hover,
+section.logout div span:hover {
+    opacity: 1;
 }
 
 section.menu div img,
@@ -44,6 +51,15 @@ section.menu div.current {
     border-radius: 17px;
     padding: 10px 20px;
     margin-left: -20px;
+    margin-bottom: 20px;
+}
+
+section.menu div.current:hover::before {
+    opacity: 1;
+}
+
+section.menu div.current {
+    background: linear-gradient(266.37deg, #FAFF00 -5.82%, #FAFF00 15.95%, #1970D6 41.2%, #6C1182 72.88%);
 }
 
 section.menu div.current span {
