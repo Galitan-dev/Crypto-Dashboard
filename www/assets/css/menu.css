@@ -8,21 +8,33 @@ section.menu {
     margin-top: 50px;
 }
 
-section.menu div {
+section.logout {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    padding-left: 60px;
+    margin-bottom: 30px;
+}
+
+section.menu div,
+section.logout div {
     display: flex;
     align-items: center;
     justify-content: start;
     gap: 10px;
 }
 
-section.menu div span {
+section.menu div span,
+section.logout div span {
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
     opacity: 0.64;
 }
 
-section.menu div img {
+section.menu div img,
+section.logout div img {
     width: 30px;
     height: 30px;
 }
