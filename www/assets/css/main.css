@@ -1,9 +1,11 @@
 body {
+    padding: 10px 0;
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr 4fr 2fr;
+    grid-template-columns: 4fr 7fr 4fr;
+    grid-template-rows: 2fr 12fr 3fr;
     grid-template-areas: 
         "logo header sidebar"
         "menu metrics sidebar"
@@ -12,6 +14,11 @@ body {
     color: white;
 }
 
+section {
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden;
+}
 section.logo { grid-area: logo }
 section.header { grid-area: header }
 section.menu { grid-area: menu }

@@ -5,7 +5,7 @@ section.menu {
     justify-content: start;
     padding-left: 60px;
     gap: 20px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 section.logout {
@@ -14,7 +14,7 @@ section.logout {
     align-items: start;
     justify-content: end;
     padding-left: 60px;
-    margin-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 section.menu div,
