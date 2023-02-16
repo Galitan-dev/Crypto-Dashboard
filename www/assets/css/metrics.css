@@ -65,6 +65,7 @@ section.metrics .tabs .bar {
 
 section.metrics .tabs .bar span {
     margin-left: 30px;
+    cursor: pointer;
 }
 
 section.metrics .tabs .bar span.current {
