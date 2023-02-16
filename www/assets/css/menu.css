@@ -23,6 +23,7 @@ section.logout div {
     align-items: center;
     justify-content: start;
     gap: 10px;
+    cursor: pointer;
 }
 
 section.menu div span,
@@ -32,11 +33,10 @@ section.logout div span {
     line-height: 30px;
     opacity: 0.64;
     transition: opacity .3s;
-    cursor: pointer;
 }
 
-section.menu div span:hover,
-section.logout div span:hover {
+section.menu div:hover span,
+section.logout div:hover span {
     opacity: 1;
 }
 
@@ -52,10 +52,6 @@ section.menu div.current {
     padding: 10px 20px;
     margin-left: -20px;
     margin-bottom: 20px;
-}
-
-section.menu div.current:hover::before {
-    opacity: 1;
 }
 
 section.menu div.current {
