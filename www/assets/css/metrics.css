@@ -2,7 +2,7 @@ section.metrics {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr 5fr;
-    margin-top: 10px;
+    padding-top: 10px;
     grid-template-areas: 
         "balance tabs"
         "graph graph";
