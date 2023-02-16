@@ -8,15 +8,10 @@ body {
         "logo header sidebar"
         "menu metrics sidebar"
         "logout history sidebar";
+    background-color: black;
+    color: white;
 }
 
-section {
-    border: 1px dotted red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: red;
-}
 section.logo { grid-area: logo }
 section.header { grid-area: header }
 section.menu { grid-area: menu }
