@@ -47,7 +47,7 @@ section.history .transaction .background {
 
 section.history .transaction .field {
     display: flex;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
 }
 
