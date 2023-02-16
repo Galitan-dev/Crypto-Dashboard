@@ -21,6 +21,13 @@ section.sidebar h2 {
     font-size: 16px;
 }
 
+section.sidebar .transactions {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 14px;
+}
+
 section.sidebar .transaction {
     display: flex;
     align-items: center;
@@ -52,6 +59,14 @@ section.sidebar .transaction .field .name.red { color: #D61919 }
 
 section.sidebar .transaction .field .value {
     opacity: 0.7;
+}
+
+section.sidebar .assets {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 14px;
+    width: 100%;
 }
 
 section.sidebar .asset {

@@ -4,7 +4,7 @@ body {
     height: 100vh;
     overflow: hidden;
     display: grid;
-    grid-template-columns: 4fr 6fr 4fr;
+    grid-template-columns: 2fr 5fr 3fr;
     grid-template-rows: 2fr 12fr 4fr;
     grid-template-areas: 
         "logo header account"
@@ -33,6 +33,4 @@ section.logout { grid-area: logout }
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    color: var(--color);
-    font-size: var(--font-size);
 }

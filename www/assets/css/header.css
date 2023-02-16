@@ -21,6 +21,7 @@ section.header {
     align-items: center;
     justify-content: space-between;
     padding-right: 70px;
+    padding-left: 20px;
 }
 
 section.header h1 {
@@ -30,7 +31,7 @@ section.header h1 {
 }
 
 section.header .search {
-    --color: black;
+    color: black;
     font-size: 20px;
     display: flex;
     justify-content: start;
@@ -41,7 +42,6 @@ section.header .search {
     padding: 0 10px;
     width: 350px;
 }
-
 
 section.header .search img {
     height: 20px;
