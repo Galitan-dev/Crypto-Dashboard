@@ -41,6 +41,11 @@ section.header .search {
     width: 350px;
 }
 
+
+section.header .search img {
+    height: 20px;
+}
+
 section.header .search input {
     border: none;
     outline: none;
